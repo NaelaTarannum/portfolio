@@ -1,7 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/portfolio.png";
 import BrighterDays from "../assets/img/brighterDays.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -17,7 +16,7 @@ export const Projects = () => {
             website: 'https://brighter-days.vercel.app/'
         },
         {
-            title: "Business Startup",
+            title: "Portfolio",
             imgUrl: projImg2,
             github: 'https://github.com/NaelaTarannum/portfolio'
         }
